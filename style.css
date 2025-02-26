@@ -1,0 +1,82 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form Container */
+form {
+    background: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Form Heading */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Gender Inputs (inline) */
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Buttons */
+button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Reset Button */
+button[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Button Hover Effects */
+button:hover {
+    opacity: 0.8;
+}

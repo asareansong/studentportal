@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOMACS RREGISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADING -->
+    <h2>Jomacs Member Registration Form</h2>
+
+    <!-- FORM -->
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- name input -->
+             <label for="full name">Full name</label>
+             <input type="text" placeholder="Enter your full Name" name="full name" id="full name">
+                <br><br>
+
+                <!-- email input -->
+                 <label for="email">Email address</label>
+                 <input type="email" placeholder="abc@gmail.com" id="email">
+                <br><br>
+
+                <!-- phone number input -->
+                 <label for="phone number">Phone number</label>
+                 <input type="tel" placeholder="+233 24 1234567" id="phone number">
+                <br><br>
+
+                <!-- date of birth input  -->
+                    <label for="date of birth">Date of birth</label>
+                    <input type="date" pl acholder="DD-MM-YYYY" id="date of birth">
+                <br><br>
+
+                <!-- gender input -->
+                 <label for="gender">Gender</label>
+                 <input type="radio" name="gender" id="male">
+                 <label for="male">male</label>
+
+                 <input type="radio" name="gender" id="female">
+                 <label for="gender">female</label>
+                <br><br>
+
+                <!-- address input -->
+                 <label for="address">Address</label>
+                 <textarea id="address" name="address"   cols="30" rows="5" placeholder="Ghana Post Address"></textarea>
+
+        </fieldset>
+
+        <!-- membership type input -->
+         <label for="membership">Membership type</label>
+         <select name="membership" id="membership" required>
+                <option value="regualr">Regular</option>
+                <option value="associate">Associate</option>
+                <option value="Visitor">Visitor</option>
+         </select>
+        <br><br>
+
+        <!-- newsletter subscription input-->
+            <label for="newsletter">Subscribe to our newsletter</label>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <br><br>
+
+            <!-- buttons input -->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+
+
+
+</html>
